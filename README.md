@@ -1,3 +1,5 @@
+Executive Summary:
+
 Dataset Overview: The data includes indicators of economic, social, and emotional well-being, such as GDP per capita, life satisfaction, social support, and life expectancy, for the year 2023.
 
 Objective: The aim was to group countries with similar characteristics using KMeans clustering and PCA to simplify and visualize the data.

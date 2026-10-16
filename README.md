@@ -15,9 +15,9 @@ Grouping countries by economic, social and well-being indicators using K-Means c
 
 ## Findings
 
-- Clusters separate countries mainly by the economic and well-being indicators: GDP, social support, life expectancy and life satisfaction.
-- The elbow curve is not sharply bent, so the choice of k is a judgement call. k = 4 gives interpretable groups without over-splitting a 120-country sample. Checking a few other values of k, and reporting a silhouette score, would make the choice easier to defend.
-- The two principal components capture a large share of the variance, so the 2-D plot is a useful summary but not a full picture of the clusters.
+- The notebook assigns every country to one of four clusters and shows each feature's distribution by cluster in a pair plot.
+- The choice of k = 4 comes from the elbow plot. Checking a few neighbouring values of k and reporting a silhouette score would make that choice easier to defend.
+- The PCA plot is a two-dimensional view of the data, so it shows only part of the structure in the nine indicators.
 
 The notebook contains the cluster assignments, pair plots of each feature by cluster, and the PCA plot.
 
